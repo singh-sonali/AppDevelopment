@@ -1,3 +1,2 @@
 # AppDevelopment
-Projects from App Development class
-see foodhaven for final project app.
+Projects from App Development class.  See foodhaven for final project app.
