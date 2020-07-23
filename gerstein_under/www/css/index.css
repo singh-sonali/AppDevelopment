@@ -1,0 +1,71 @@
+h1{
+  font-family: "Times New Roman";
+  font-size: 5vh;
+  text-align: center;
+}
+td{
+  text-align: center;
+  height: 20vh;
+  
+  font-family: "Times New Roman";
+  font-size: 4vh;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+}
+
+td a{
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+table{
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
+
+.one{
+  border-radius: 100% 0px 0px 0px;
+  padding-left: 10%;
+  padding-top: 7%;
+}
+.two{
+  border-radius: 0px 100% 0px 0px;
+  padding-right: 10%;
+  padding-top: 7%;
+}
+.three{
+  border-radius: 0px 0px 0px 100%;
+  padding-left: 10%;
+  padding-bottom: 7%;
+}
+.four{
+  border-radius: 0px 0px 100% 0px;
+  padding-right: 10%;
+  padding-bottom: 7%;
+}
+
+.displayone{
+  text-align: center;
+  width: 100%;
+  margin-top: 2%;
+  height: 30vh;
+}
+.parent{
+  position: relative;
+  width: 20vw;
+  height: 20vh;
+  border: 1px solid black;
+  border: ;
+}
+.imgone{
+  position: absolute;
+  width: 20vw;
+  height: 30vh;
+  top: 18vh;
+  left: 31.5vw;
+}
+

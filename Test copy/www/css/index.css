@@ -1,0 +1,163 @@
+/*
+ * Licensed to the Apache Software Foundation (ASF) under one
+ * or more contributor license agreements.  See the NOTICE file
+ * distributed with this work for additional information
+ * regarding copyright ownership.  The ASF licenses this file
+ * to you under the Apache License, Version 2.0 (the
+ * "License"); you may not use this file except in compliance
+ * with the License.  You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing,
+ * software distributed under the License is distributed on an
+ * "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+ * KIND, either express or implied.  See the License for the
+ * specific language governing permissions and limitations
+ * under the License.
+ */
+
+
+body{
+    background-color: #FF5733;
+    height: 100%;
+}
+h1.homepage{
+    font-size: 4em;
+    color: white;
+    text-align: center;
+    font-family: cursive;
+}
+.clearfix{
+    overflow: hidden;
+}
+
+header ul{
+    float: right;
+    margin: auto;
+    padding: 0;
+}
+header li{
+    display: inline;
+}
+header li a{
+  display: inline-block;
+  padding: 10px;
+  margin-right: 6px;
+  background-color: #FFC300;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+}
+header h1{
+    font-size: 2.5em;
+    color: white;
+    text-align: center;
+
+}
+header hr{
+    background-color: white;
+}
+
+
+a.homepage{
+    font-family: "Courier New";
+    display: block;
+    text-decoration: none;
+    border: solid #DAF7A6 2px;
+    padding: 5%;
+    text-align: center;
+    color: #DAF7A6;
+    font-size: 2em;
+    margin: 5%;
+}
+
+iframe{
+    height: 500px;
+    width: 100%;
+    border: none;
+    -ms-transform:scale(1.00);
+
+    -moz-transform:scale(0.60);
+
+    -o-transform: scale(0.10);
+
+    transform:scale(0.90);
+
+    border:1px solid black;
+}
+
+.picture{
+    width: 42%;
+    float: left;
+}
+.moodselector{
+    border: 3px dotted white;
+    font-family: cursive;
+    text-align: center;
+    color: white;
+    background-color: #FFC300;
+    font-size: 1.5em;
+    padding: 3px 3px 10px 3px;
+    width: 45%;
+    float: right;
+}
+.formelement{
+    font-size: 0.8em;
+    font-family: "Courier New";
+    margin: 7px;
+}
+
+.fooddescription{
+    margin-top: 350px;
+    float: none;
+    width: 97%;
+    background-color: #FFC300;
+}
+.watercups{
+    float:none;
+    text-align: center;
+    width: 97%;
+    margin-top: 20%;
+}
+footer{
+    margin-top: 20%;
+    text-align: center;
+}
+.description{
+    width: 95%;
+    height: 50px;
+}
+
+
+
+
+h1 {
+    font-size:24px;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+.event {
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:12px;
+    margin:0px 30px;
+    padding:2px 0px;
+}
+
+.event.listening {
+    background-color:#333333;
+    display:block;
+}
+
+.event.received {
+    background-color:#4B946A;
+    display:none;
+}
+
+

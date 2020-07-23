@@ -1,0 +1,47 @@
+<!-- Sonali Singh
+Food Haven Project
+Reflection: This project was challenging, because I had to figure out how to get so many new things to work: databases, radio buttons, photo storage, redirecting of links, the cordova file system, floating with css formatting, etc. However, my app ended up doing exactly what I wanted to do in my wireframes (it looks even better than the original outline) and I am so happy with the way it turned out. -->
+<!-- Sources:
+Database from //FROM https://blog.teamtreehouse.com/create-your-own-to-do-app-with-html5-and-indexeddb
+
+Camera Plugin and all associated functions from https://cordova.apache.org/docs/en/latest/reference/cordova-plugin-camera/
+
+Functionalities of database from https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API/Using_IndexedDB
+
+Radio Button from https://stackoverflow.com/questions/9618504/how-to-get-the-selected-radio-button-s-value
+
+-->
+
+<!-- This page has the code for the opening "food haven" page -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: cdvfile: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <title>Hello World</title>
+    </head>
+    <body class="homepage">
+        <div class="app">
+            <h1 class="homepage">welcome to food haven</h1>
+            <a class="homepage" href="foodlog.html">food log</a></button>
+            <a class="homepage" href="waterlog.html">water log</a>
+            <a class="homepage" href="healthy.html">healthy eats</a><a class="homepage" href="guilty.html">guilty eats</a>
+        </div>
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

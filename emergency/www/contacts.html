@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+    </head>
+    <body>
+        <h1> Contacts </h1>
+            <a href="index.html">HomePage</a>
+        <div class="contact"> EMERGENCY CONTACTS </div>
+        <div class="Edit"> Edit </div>
+        
+        <div class="specific_contacts">
+        <div class="contact1"> Contact 1</div>
+        <div class="phone1"></div>
+        <div class="contact2"> Contact 2</div>
+        <div class="phone2"></div>
+        <div class="contact3"> Contant 3</div>
+        <div class="phone3"></div>
+        <div class="contact4"> Contact 4</div>
+        <div class="phone4"></div>
+        </div>
+
+        <form id="contactInfo">
+        
+        <div class="input">
+        <p>Contact 1</p>
+        <p><span>First Name </span><input type='text' id='first'/></p>
+        <p><span>Last Name </span><input type='text' id='second'/></p>
+        <p><span>Phone Number </span><input type='text' id='third'/></p>
+        <p>Contact 2</p>
+        <p><span>First Name </span><input type='text' id='fourth'/></p>
+        <p><span>Last Name </span><input type='text' id='fifth'/></p>
+        <p><span>Phone Number </span><input type='text' id='sixth'/></p>
+        <p>Contact 3</p>
+        <p><span>First Name </span><input type='text' id='seventh'/></p>
+        <p><span>Last Name </span><input type='text' id='eighth'/></p>
+        <p><span>Phone Number </span><input type='text' id='ninth'/></p>
+        <p>Contact 4</p>
+        <p><span>First Name </span><input type='text' id='tenth'/></p>
+        <p><span>Last Name </span><input type='text' id='eleventh'/></p>
+        <p><span>Phone Number </span><input type='text' id='twelveth'/></p>
+        </div>
+
+        </form>
+
+        <div class="submit"> Submit</div>
+        <p><a href="index.html" class="back">Go Back</a></p>
+
+
+        
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

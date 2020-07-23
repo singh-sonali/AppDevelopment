@@ -1,0 +1,33 @@
+textarea{
+  height: 100px;
+  width:85%
+}
+
+body{
+  /*background:linear-gradient(to bottom, #33ccff 0%, #ffff99 100%);*/
+  background:skyblue;
+}
+
+h4{
+  background-color:#FFC859;
+  padding:12px;
+  font-size:30px;
+  max-width:200px;
+  font-family: 'Helvetica';
+  color:#23597a;
+  border: 3px double;
+}
+
+#bloodtype{
+  width:85%;
+}
+form{
+  width:500px;
+  margin:0 auto;
+}
+
+a{
+  background-color: white;
+  margin-bottom: 10px;
+  font-family: "Times New Roman";
+}

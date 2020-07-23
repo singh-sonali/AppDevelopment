@@ -1,0 +1,29 @@
+$('#imgone').hide()
+$('#imgtwo').hide()
+$('#imgthree').hide()
+$('#imgfour').hide()
+
+$('#one').hover(function(){
+	$('#imgone').show()
+	$('#imgtwo').hide()
+	$('#imgthree').hide()
+	$('#imgfour').hide()
+})
+$('#two').hover(function(){
+	$('#imgtwo').show()
+	$('#imgone').hide()
+	$('#imgthree').hide()
+	$('#imgfour').hide()
+})
+$('#three').hover(function(){
+	$('#imgthree').show()
+	$('#imgone').hide()
+	$('#imgtwo').hide()
+	$('#imgfour').hide()
+})
+$('#four').hover(function(){
+	$('#imgfour').show()
+	$('#imgone').hide()
+	$('#imgtwo').hide()
+	$('#imgthree').hide()
+})

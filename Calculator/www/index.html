@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+ Sonali Singh
+ Calculator Project 4/1/19
+ Description: For this project, I attempted to mimic the iPhone calculator in an html browser. While the program did not allow me to adjust height so that the calculator would fit the screen in all types of devices, and though I did not know the exact font to use, my project pretty much mimics the calculator to a tee. For best viewing, view in iPhone 6/7/8. I focused on using the "boxes" format we discussed in class to create the buttons on my calculator, and used an external CSS style sheet to format the elements. I am excited to make it functional!
+ OMH: Sonali Singh
+-->
+<html>
+    <head>
+        <!-- Code that comes with XCODE File -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+        <!-- Referencing style sheet where all the formatting for the elements is stored -->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <!-- Title of webpage -->
+        <title>Calculator</title>
+    </head>
+    <body>
+        <!-- Creating box that displays calculation using class container -->
+        <div class = "container">
+          <div class="result" id="result">0</div>
+        </div>
+
+       <!--  Creating number buttons as divs using class container. Colors specified in different classes.-->
+        <div class="container">
+          <div class="box lightgray" id="clear">AC</div>
+          <div class="box lightgray" id="plusminus">+/-</div>
+          <div class="box lightgray" id="percent">%</div>
+          <div class="box operator" id="divide">÷</div>
+
+          <div class="box darkgray number">7</div>
+          <div class="box darkgray number">8</div>
+          <div class="box darkgray number">9</div>
+          <div class="box operator" id="multiply">x</div>
+
+          <div class="box darkgray number">4</div>
+          <div class="box darkgray number">5</div>
+          <div class="box darkgray number">6</div>
+          <div class="box operator" id="subtract">–</div>          
+          <div class="box darkgray number" id="one">1</div>
+          <div class="box darkgray number" id="two">2</div>
+          <div class="box darkgray number">3</div>
+          <div class="box operator" id="add">+</div>
+
+          <div class = "box zero darkgray number">0</div>
+          <div class="box darkgray" id="decimal">.</div>
+          <div class="box" id="equals">=</div>
+        </div>
+    
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

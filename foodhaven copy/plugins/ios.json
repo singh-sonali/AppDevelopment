@@ -1,0 +1,33 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "edu.choate.sonalisingh.foodhaven"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "edu.choate.sonalisingh.foodhaven"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "edu.choate.sonalisingh.foodhaven"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "edu.choate.sonalisingh.foodhaven"
+    },
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "edu.choate.sonalisingh.foodhaven"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "edu.choate.sonalisingh.foodhaven"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "edu.choate.sonalisingh.foodhaven"
+    }
+  },
+  "dependent_plugins": {}
+}

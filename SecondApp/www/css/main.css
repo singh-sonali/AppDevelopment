@@ -1,0 +1,38 @@
+body{
+	background-color: #F6F7BD;
+	text-transform: uppercase;
+	font-family: sans-serif;
+}
+h2{
+	text-align:center;
+	color: #655643;
+}
+
+ul{
+	text-align: center;
+	list-style-type: none;
+	padding: 0px;
+}
+a{
+
+	display: block;
+	color: #80BCA3;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-weight: bold;
+	font-size: 1.5em;
+	font-variant: small-caps;
+
+}
+
+li{
+	background-color: #655643;
+	width: 80%;
+	border-style: solid;
+	border-radius: 5px;
+	border-width: 2px;
+	border-color: #80BCA3;
+	padding: 10px;
+	margin: 10px auto;
+
+}

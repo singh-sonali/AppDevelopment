@@ -1,0 +1,18 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-screen-orientation": {
+      "PACKAGE_NAME": "edu.choate.sonalisingh.plugin_prac"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "edu.choate.sonalisingh.plugin_prac"
+    }
+  },
+  "dependent_plugins": {}
+}

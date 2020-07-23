@@ -1,0 +1,35 @@
+body{
+	background-color: #5271B2;
+}
+h2{
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Times New Roman", serif;
+}
+
+div img{
+	display: block;
+	margin: auto;
+	width: 50%;
+
+}
+div p{
+	font-family: sans-serif;
+	font-weight: normal;
+	font-size: 1.1em;
+	color:white;
+	text-align: center;
+	text-transform: uppercase;
+}
+section{
+	text-align: center;
+}
+
+section img{
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+	border-radius: 100px;
+	margin-left: 10px;
+}

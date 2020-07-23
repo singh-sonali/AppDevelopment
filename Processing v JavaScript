@@ -1,0 +1,31 @@
+Processing v JavaScript
+x = 5
+var x = 5;
+var a;
+
+if x <10:
+	# do this
+
+if (x < 10) {
+	//do this
+}
+
+for i in range(5):
+	print(i)
+
+for (var i = 0; i<5; i++){
+	console.log(i);
+}
+
+def happy():
+	#function stuff
+
+function happy() {
+	//function stuff
+}
+
+-- unnamed function can't be called but used once
+function(){
+	//unnamed function stuff
+}
+

@@ -1,0 +1,73 @@
+/*Style Sheet for Calculator Project
+Main size indicator is percent so that project is compatible with multiple devices and flexible across them.
+OMH: Sonali Singh*/
+
+/*Sets formatting to be applied to every element contained within the body.*/
+body{
+  background-color: black;
+  color: white;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 220%;
+
+}
+
+/*Creates container for "boxes" elements that contain numbers and operation signs*/
+.container {
+  width: 100%;
+  overflow: hidden;
+  margin: 0% auto;
+}
+
+/*Box elements are within container, and are used to create "buttons" for numbers and operations signs*/
+.box {
+  background-color: #FE9A00;
+  width: 19.5%;
+
+  /*Only value set in pixels bc program does not recognize percent value */
+  min-height: 55px;
+
+  margin-right: 2.5%;
+  margin-left: 2.5%;
+  margin-bottom: 5%;
+  float: left;
+  text-align: center;
+  padding-top: 2.5%;
+  padding-bottom: 0.5%;
+
+  /*Pixel value still attains circular border across all devices.*/
+  border-radius: 100px;
+}
+
+/*Contains specific properties for the "0" box on the left bottom corner of the screen that needed to be double the width of all other buttons.*/
+.zero{
+  width: 44%;
+  text-align: left;
+  text-indent: 18%;
+}
+
+/*Color properties for different buttons. Orange is set as default when creating box to avoid third class.*/
+.lightgray{
+  background-color: #D6D6D6;
+  color: black;
+}
+.darkgray{
+  background-color: #4B4B4B;
+}
+
+/*Contains specific properties for the results bar at the top of the calculator that shows the result. Currently it just displays 0. Overwrites properties in the "container" class for results bar.*/
+.result{
+  text-align: right;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 2%;
+  margin-top: 10%;
+  font-family: Optima, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 3.3em;
+  }
+
+/*Changes background color when user clicks on button to serve as a visual indicator.*/
+div.box:active{
+  background-color: gray;
+  border: 0.5% solid white;
+}

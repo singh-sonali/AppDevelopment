@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <!-- <meta http-equiv="Content-Security-Policy" content="default-src * gap: https://ssl.gstatic.com 'unsafe-eval'; style-src *'unsafe-inline'; media-src *; img-src * data;"> -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Hello World</title>
+    </head>
+    <body>
+        <div class="app">
+            <a href="personalinfo.html">Personal Info </a>
+            <br>
+            <a href = "medicalinfo.html">Medical Info</a>
+            <br>
+            <a href="contacts.html">Contacts </a>
+            <br>
+            <a href="location.html">Location</a>
+                <!-- <ul id = "personal-items">
+                </ul>
+                <button id="editpersonalinfo">Edit Personal Info</button>
+            <form id='personalinfoform'>
+                <h4>Full Name:
+                <input type=text id='fullname'>
+                <h4>Date of Birth:
+                <input type=text id='dob'>
+                <h4>Sex:
+                <input type=text id='sex'>
+                <h4>Address:
+                <input type=text id='address'>
+                <h4> Portrait:
+                <input type=file id='portrait' accept='image/*'>
+                <h4 class="passcodecheck">Set Passcode
+                <input type='text' id='passcoded'><br><br>
+                <h4>Submit Personal Info:
+                <input value='Submit' type='submit' id='personalinfosubmit'></h4>
+            </form> -->
+            <br>
+            <!-- <form id="medicalinfoform">
+                <h4>Blood Type:
+                <input type='text' id='bloodtype'>
+                <h4>Pre-Existing Conditions:
+                <textarea height='200px' id='conditions'></textarea>
+                <h4>Medications:
+                <textarea height='200px' id='conditions'></textarea>
+                <h4>Extraneous Information:
+                <textarea height='200px' id='conditions'></textarea><br>
+                <h4>Submit Medical Info:
+                <input type="submit" value='Submit'></h4>
+            </form> -->
+            <br>
+            
+            
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type = "text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>

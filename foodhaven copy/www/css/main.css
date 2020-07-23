@@ -1,0 +1,223 @@
+/*Sonali Singh
+Food Haven Project*/
+
+/*consistent styles across pages*/
+body{
+	background-color: #FF5733;
+	height: 100%;
+}
+button{
+	border: 5px solid white;
+	border-radius: 5px;
+	font-family: "Courier New";
+	background-color: white;
+	display: block;
+	margin: auto;
+
+}
+p{
+	color: white;
+	font-family: "Courier New";
+	font-size: 1.2em;
+	text-align: center;
+}
+h1.homepage{
+	font-size: 4em;
+	color: white;
+	text-align: center;
+	font-family: cursive;
+}
+.clearfix{
+	overflow: hidden;
+}
+
+/*header formatting*/
+header ul{
+	float: left;
+	margin: auto;
+	padding: 0;
+}
+
+header li{
+	display: inline;
+}
+header li a{
+  display: inline-block;
+  padding: 10px;
+  margin-right: 6px;
+  background-color: #FFC300;
+  border: 1px solid white;
+  text-decoration: none;
+  color: white;
+}
+header h1{
+	font-size: 2.5em;
+	color: white;
+	text-align: center;
+	margin-right: 12%;
+
+}
+header hr{
+	background-color: white;
+}
+
+
+/*for "+" buttons in header of foodlog and waterlog pages*/
+.addfoodbutton{
+	float: right;
+	padding: 0;
+	margin-top: -27%;
+	margin-left: 5%;
+}
+.addwaterbutton{
+	float: right;
+	padding: 0;
+	margin-top: -24%;
+
+}
+
+a.homepage{
+	font-family: "Courier New";
+	display: block;
+	text-decoration: none;
+	border: solid #DAF7A6 2px;
+	padding: 5%;
+	text-align: center;
+	color: #DAF7A6;
+	font-size: 2em;
+	margin: 5%;
+}
+
+/*for sage button on sage page*/
+.sage{
+	display: block;
+	margin: auto;
+	margin-top: 30%;
+	height: 100px;
+	font-size: 2em;
+}
+
+/*for elements on "addfood" page*/
+.picture{
+	width: 45%;
+	float: left;
+}
+.moodselector{
+	border: 3px dotted white;
+	font-family: cursive;
+	text-align: center;
+	color: white;
+	background-color: #FFC300;
+	font-size: 1.5em;
+	padding: 3px 3px 10px 3px;
+	width: 48%;
+	float: right;
+	margin-bottom: 10%;
+}
+.moodelement{
+	font-size: 0.8em;
+	font-family: "Courier New";
+	margin: 10%;
+}
+
+.fooddescription{
+	float: none;
+	overflow: hidden;
+	width: 97%;
+	background-color: #FFC300;
+}
+.description{
+	width: 95%;
+	height: 50px;
+}
+.displaymsg{
+	color: #FF5733;
+}
+
+footer{
+	margin-top: 20%;
+	text-align: center;
+}
+
+/*for elements on "addwater" page*/
+.watercups{
+	float:none;
+	text-align: center;
+	width: 97%;
+	margin-top: 10%;
+}
+img{
+	width: 100%;
+}
+
+/*format for items on "foodlog" page*/
+.fooditemlist{
+	list-style: none;
+	text-align: center;
+	margin-left: -10%;
+}
+.fooditem{
+	background-color: pink;
+	border: 5px solid white;
+	margin: 5%;
+}
+.foodlogdisplay{
+	font-family: "Courier New";
+
+}
+
+/*format for healthy and guilty box style pages*/
+.container{
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-top: 10%;
+}
+.box{
+	background-color: pink;
+	width: 100%;
+	min-height: 60px;
+	margin-right: 3%;
+	float: left;
+	text-align: center;
+	padding-top: 6%;
+	margin-bottom: 6%;
+	font-size: 1.4em;
+	font-family: "Courier New";
+}
+
+/*format for "delete" checkboxes on entries*/
+.food-checkbox{
+	float: right;
+	margin-right: 7.5%;
+}
+.water-checkbox{
+	float: right;
+	margin-top: -12%;
+	margin-right: 7.5%;
+}
+
+/*format for elements on "waterlog" page*/
+.cups{
+	font-family: "Courier New";
+	border: 5px solid white;
+	background-color: pink;
+	margin: 5%;
+}
+.timestamp{
+	border: 2px solid white;
+	font-family: "Courier New";
+	margin: 5% 5% -6% 5%;
+}
+.wateritemlist{
+	list-style: none;
+	text-align: center;
+	margin-left: -10%;
+}
+.watertable{
+	margin-top: 10%;
+}
+
+
+
+
